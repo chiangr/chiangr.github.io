@@ -1,2 +1,0 @@
-# chiangr.github.io
-Resume
