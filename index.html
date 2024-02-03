@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Implemented Locomotive-scroll.js, spline.js, Bootstrap.js -->
+        <!-- Code assisted from infinite carousel and background color change -->
+
+        <title>Ryan Chiang</title>
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="assets/css/styles.css" rel="stylesheet">
+
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-straight/css/uicons-solid-straight.css'>
+        <link href="assets/images/uicons-solid-rounded/css/uicons-solid-rounded.css" rel="stylesheet"> <!--load all styles -->
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css'>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <script src="assets/js/smooth.js" type="text/javascript"></script>
+        <script src="assets/js/carousel.js" type="text/javascript"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+        <script>
+            (function () {
+                const locomotiveScroll = new LocomotiveScroll();
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="spline-ctn position-absolute w-100 z-n1">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.510/build/spline-viewer.js"></script>
+<spline-viewer loading-anim-type="spinner-big-dark" url="https://prod.spline.design/yN-U91oLuBllmxIw/scene.splinecode"></spline-viewer>
+        </div>
+        <navbar>
+            <div class="container sticky-top">
+                <div class="row">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="inavbar">
+                            <a href="index.html"><button><i class="fi fi-sr-home"></i></button></a>
+                            <a href="#about"><button><i class="fi fi-ss-user"></i></button></a>
+                            <a href="#projects"><button><i class="fi fi-sr-folder"></i></button></a>
+                            <a href="https://www.linkedin.com/in/chiangr/" target="_blank"><button><i class="fi fi-brands-linkedin"></i></button></a>
+                            <a href="mailto:rychi@berkeley.edu"><button><i class="fi fi-sr-envelope"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </navbar>
+        <div class="container">
+            <div class="row hero-ctn panel"  data-color="black">
+                <div class="d-flex flex-column justify-content-center text-center text-md-start">
+                    <h1 data-scroll data-scroll-speed="0.05">Hi, I'm Ryan</h1>
+                    <p data-scroll data-scroll-speed="0.05">Mechanical Engineering @ UC Berkeley</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block">
+                        <div class="animation">
+                          <div class="first">
+                            <h1>Solidworks</h1>
+                          </div>
+                          <div>
+                            <h1>Hardware</h1>
+                          </div>
+                          <div>
+                            <h1>3D-Printing</h1>
+                          </div>
+                          <div>
+                            <h1>Fabrication</h1>
+                          </div>
+                          <div>
+                            <h1>GD&T</h1>
+                          </div>
+                          <div>
+                            <h1>Prototyping</h1>
+                          </div>
+                          <!-- cut -->
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row panel mt-5" id="about" data-color="white">
+                <div class="col-12 col-md-6 about-img">
+                    <img src="assets/images/headshot2.jpg" data-scroll data-scroll-speed="0.12">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="about-txt-ctn sticky-top">
+                        <h1 class="text-center text-md-start">ME x Design</h1>
+                        <br>
+                        <p class="txt-dark"><i>TBP | SECT Certificate | BCDI Certificate</i></p>
+                        <br>
+                        <p>
+                            As both majoring in mechanical engineering and practice in UI/UX,
+                            I am passionate in creating products and designs that tread creative pursuit and technical skills.
+                            From self led projects to organizational work, I enjoy learning and challenging myself to learn and inspire others to do the same.
+                        </p>
+                        <br>
+                        <p>
+                            Born and raised in Walnut, California, I am blessed to have had the opportunity to attend the University of California, Berkeley.
+                            The resources the mechanical engineering department provided has led me to discover my true passion in learning about how the world works, through the mechanics, materials, and product design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5 panel" data-color="black">
+                <div class="col text-center text-sm-start">
+                    <h1>My Toolbox</h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-sm-4 text-center text-sm-start">
+                    <h2>CADD</h2>
+                    <p>
+                        Post ideation, many of my designs and mockups start within CADD.
+                        I am always on the programs to design new and current drawings.
+                    </p>
+                </div>
+                <div class="col-2 d-none d-sm-block"></div>
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    <ul data-scroll data-scroll-speed="0.07">
+                        <li>Solidworks</li>
+                        <li>Creo</li>
+                        <li>Fusion 360</li>
+                        <li>Shapr3D</li>
+                        <li>GD&T</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-sm-4 text-center text-sm-start">
+                    <h2>Fabrication</h2>
+                    <p>
+                        Through the university machine shop and my 3D-printers at home, I have had a good exposure to the world
+                        of manufacturing and fabrication.
+                    </p>
+                </div>
+                <div class="col-2 d-none d-sm-block"></div>
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    <ul data-scroll data-scroll-speed="0.07">
+                        <li>FDM Printing</li>
+                        <li>CNC Milling</li>
+                        <li>Mill/Lathe</li>
+                        <li>TIG Welding</li>
+                        <li>Lasercutting</li>
+                        <li>Woodshop</li>
+                        <li>Waterjet Cutting</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-sm-4 text-center text-sm-start">
+                    <h2>Hardware</h2>
+                    <p>
+                        It is important to understand the hardware components inside and out. <br><br>
+                        From the technical knowledge of power output, the importance of resistance, and signals
+                        to the applicable practice through projects, I'm always open to learning more about hardware.
+                    </p>
+                </div>
+                <div class="col-2 d-none d-sm-block"></div>
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    <ul data-scroll data-scroll-speed="0.07">
+                        <li>ESP32</li>
+                        <li>Micropython</li>
+                        <li>Arduino</li>
+                        <li>Soldering</li>
+                        <li>Servo Motors</li>
+                        <li>DC Motors</li>
+                        <li>Sensors</li>
+                        <li>ESP32-CAM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-sm-4 text-center text-sm-start">
+                    <h2>Software</h2>
+                    <p>
+                        Through coursework and projects, I was able to learn the intricacies of languages to
+                        implement them in different fields: whether it is to graph the stress-strain curve of a material,
+                        simulate the output response in control systems, send/receive signals to hardware, or to make a website.
+                    </p>
+                </div>
+                <div class="col-2 d-none d-sm-block"></div>
+                <div class="col-12 col-sm-6 text-center text-sm-start">
+                    <ul data-scroll data-scroll-speed="0.07">
+                        <li>MATLAB</li>
+                        <li>Simulink</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-5 panel" id="projects" data-color="black">
+                <div class="col text-center text-sm-start">
+                    <h1>Recent Projects</h1>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12 col-md-4 card-ctn">
+                    <div class="card">
+                        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.515/build/spline-viewer.js"></script>
+                        <spline-viewer url="https://prod.spline.design/3MOn50r79s34wXt6/scene.splinecode"></spline-viewer>
+                        <h2>Knife With Built in Sharpener</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="height:50vh"></div>
+        </div>
+    </body>
+</html>
