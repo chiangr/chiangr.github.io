@@ -171,6 +171,10 @@ li {
     background-color: transparent !important;
 }
 
+.card-ctn a {
+    text-decoration: none;
+}
+
 .card {
     width:100%;
     background-color: transparent !important;
@@ -181,4 +185,8 @@ li {
 .card-ctn:hover .card {
     border:var(--white) solid 2px;
     transition:0.2s;
+}
+
+.resume-ctn {
+    height:100vh;
 }
