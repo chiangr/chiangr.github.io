@@ -180,6 +180,7 @@ li {
     background-color: transparent !important;
     border-radius:16px;
     padding:16px;
+    height:100%;
 }
 
 .card-ctn:hover .card {
